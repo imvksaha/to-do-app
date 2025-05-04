@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #a0abbc;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    
+    width : 300px;
+    background-color: rgb(239, 239, 239);
+    padding: 1.7rem;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+}
+h1{
+    color: #4751bb;
+    margin-bottom: 30px;
+    text-align : center;
+}
+.input-container{
+    border-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-task{
+    border-color: rgb(224, 212, 212);
+    border-radius: 5px;
+    height: 30px;
+}
+input:focus{
+    outline: none;
+}
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px; /* Add space below the input box */
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Style each task item */
+#todo-list li {
+    background-color: #4751bb;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style delete button */
+#todo-list button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#todo-list::-webkit-scrollbar {
+    display: none;
+}
+.completed{
+    text-decoration: line-through;
+    color: rgb(165, 163, 163);
+}

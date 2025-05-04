@@ -1,0 +1,1 @@
+From this project i learn a lot abou js. starting for domcontentloaded to add a event how to hadle that event . Also about localostoraged and make some functions around it like savetask(). Also a dynmic function RenderTask and also learn how to show the list of task through an arry tasks.
